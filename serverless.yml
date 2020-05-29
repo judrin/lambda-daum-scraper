@@ -1,0 +1,28 @@
+plugins:
+  - serverless-offline
+
+service: daum-casmo
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: dev
+  region: ca-central-1
+
+package:
+  exclude: 
+    - admin/**
+    - key.json
+
+functions:
+  scrape:
+    handler: handler.scrape
+    events:
+     - schedule: rate(30 minutes)
+  posts:
+    handler: handler.posts
+    events:
+      - http:
+          path: posts
+          method: get
+          cors: true

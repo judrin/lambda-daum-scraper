@@ -1,0 +1,23 @@
+{
+  "name": "lambda-daum-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-table": "node admin/init.js",
+    "create-table-local": "node admin/init-local.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.676.0",
+    "serverless-offline": "^6.1.5"
+  }
+}
