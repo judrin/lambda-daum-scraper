@@ -17,7 +17,7 @@
     "moment-timezone": "^0.5.28"
   },
   "devDependencies": {
-    "aws-sdk": "^2.676.0",
+    "aws-sdk": "^2.814.0",
     "serverless-offline": "^6.1.5"
   }
 }
