@@ -5,7 +5,7 @@ A scraper running on AWS Lambda scrapes data from a Korean website "Daum Cafe" u
 ## Demo
 A React app fetching data from the API
 
-[https://xenodochial-mcclintock-3df30a.netlify.app/](https://xenodochial-mcclintock-3df30a.netlify.app/) (Currently down)
+Dev: [https://silly-swartz-a798f3.netlify.app/](https://silly-swartz-a798f3.netlify.app/)
 
 ## Getting Started
 This app uses Serverless Framework to manage AWS services. To install the Serverless Framework is optional.
